@@ -26,5 +26,3 @@ RUN conda config --add channels conda-forge \
     quiver_engine \
     git+git://github.com/keplr-io/quiver.git
 
-CMD jupyter notebook --notebook-dir=${NOTEBOOK_DIR} --ip=${NOTEBOOK_IP} --port=${NOTEBOOK_PORT} --no-browser --NotebookApp.token=''
-
