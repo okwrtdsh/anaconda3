@@ -1,4 +1,4 @@
-FROM okwrtdsh/anaconda3:gpu
+FROM okwrtdsh/anaconda3:cuda75-cudnn5
 
 ENV DEBIAN_FRONTEND noninteractive
 
