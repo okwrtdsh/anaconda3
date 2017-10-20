@@ -17,7 +17,7 @@ RUN conda install -c https://conda.anaconda.org/menpo opencv3
 # keras (tensorflow) install
 RUN conda config --add channels conda-forge \
  && conda install -y --quiet \
-    tensorflow \
+    tensorflow-gpu \
     keras \
  && pip --no-cache-dir install \
     # keras.utils.vis_utils
