@@ -1,5 +1,6 @@
 FROM nvidia/cuda:8.0-cudnn5-devel
 
+USER root
 ENV DEBIAN_FRONTEND noninteractive
 
 # add cudnn

@@ -1,5 +1,6 @@
 FROM nvidia/cuda:7.5-cudnn5-devel
 
+USER root
 ENV DEBIAN_FRONTEND noninteractive
 
 
