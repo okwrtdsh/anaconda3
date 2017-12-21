@@ -18,7 +18,7 @@ RUN conda install -c https://conda.anaconda.org/menpo opencv3
 RUN conda config --add channels conda-forge \
  && conda install -y --quiet \
     tensorflow-gpu \
-    keras \
+    'keras=2.0.6' \
  && pip --no-cache-dir install \
     # keras.utils.vis_utils
     pydot_ng \

@@ -10,7 +10,7 @@ RUN apt-get update -qq \
 # keras (tensorflow) install
 RUN conda install -y --quiet \
     tensorflow \
-    keras \
+    'keras=2.0.6' \
  && pip --no-cache-dir install \
     # keras.utils.vis_utils
     pydot_ng \
