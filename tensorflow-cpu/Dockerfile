@@ -1,4 +1,4 @@
-FROM okwrtdsh/anaconda3:base
+FROM okwrtdsh/anaconda3:cpu
 
 # tensorflow install
 RUN conda install -y --quiet tensorflow
