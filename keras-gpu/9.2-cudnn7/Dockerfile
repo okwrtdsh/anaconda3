@@ -10,8 +10,8 @@ RUN apt-get update -qq \
 # keras (tensorflow) install
 RUN conda config --add channels conda-forge \
  && conda install -y --quiet \
-	tensorflow-gpu \
-	keras \
+	'tensorflow-gpu=1.7' \
+	'keras=2.1.6' \
  && pip --no-cache-dir install \
 	# keras.utils.vis_utils
 	pydot_ng \
