@@ -36,7 +36,7 @@ RUN conda install -y --quiet \
 	Pillow \
  && conda config --add channels conda-forge \
 	# opencv3 install
- && conda install -c https://conda.anaconda.org/menpo opencv3
+ && conda install -c menpo opencv3
 
 CMD jupyter notebook \
 	--notebook-dir=${NOTEBOOK_DIR} \
