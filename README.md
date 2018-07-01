@@ -35,6 +35,17 @@ Anaconda3, Jupyter Notebook, OpenCV3, TensorFlow and Keras2 for Deep Learning
 | `keras-8.0-cudnn7` | `tf-8.0-cudnn7` | 1.7 | 2.1.6 |
 | `keras-8.0-cudnn6` | `tf-8.0-cudnn6` | 1.7 | 2.1.6 |
 
+### Pytorch
+
+| Tag | Base | Pytorch |
+|:-:|:-:|:-:|
+| `pytorch-cpu`, `pytorch` | `cpu` | 0.4.0 |
+| `pytorch-9.2-cudnn7` | `9.2-cudnn7` | 0.4.0 |
+| `pytorch-9.1-cudnn7` | `9.1-cudnn7` | 0.4.0 |
+| `pytorch-9.0-cudnn7` | `9.0-cudnn7` | 0.4.0 |
+| `pytorch-8.0-cudnn7` | `8.0-cudnn7` | 0.4.0 |
+| `pytorch-8.0-cudnn6` | `8.0-cudnn6` | 0.4.0 |
+
 ## How to Use
 
 ### CPU
