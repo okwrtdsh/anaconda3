@@ -17,23 +17,23 @@ Anaconda3, Jupyter Notebook, OpenCV3, TensorFlow and Keras2 for Deep Learning
 
 | Tag | Base | Tensorflow |
 |:-:|:-:|:-:|
-| `tensorflow-cpu`, `tf-cpu`, `tf` | `cpu` | 1.8 |
-| `tensorflow-9.2-cudnn7`, `tf-9.2-cudnn7` | `9.2-cudnn7` | 1.8 |
-| `tensorflow-9.1-cudnn7`, `tf-9.1-cudnn7` | `9.1-cudnn7` | 1.7 |
-| `tensorflow-9.0-cudnn7`, `tf-9.0-cudnn7` | `9.0-cudnn7` | 1.7 |
-| `tensorflow-8.0-cudnn7`, `tf-8.0-cudnn7` | `8.0-cudnn7` | 1.7 |
-| `tensorflow-8.0-cudnn6`, `tf-8.0-cudnn6` | `8.0-cudnn6` | 1.7 |
+| `tf-cpu`, `tf` | `cpu` | 1.8 |
+| `tf-9.2-cudnn7` | `9.2-cudnn7` | 1.8 |
+| `tf-9.1-cudnn7` | `9.1-cudnn7` | 1.7 |
+| `tf-9.0-cudnn7` | `9.0-cudnn7` | 1.7 |
+| `tf-8.0-cudnn7` | `8.0-cudnn7` | 1.7 |
+| `tf-8.0-cudnn6` | `8.0-cudnn6` | 1.7 |
 
 ### Keras (Tensorflow Backend)
 
 | Tag | Base | Tensorflow | Keras |
 |:-:|:-:|:-:|:-:|
-| `keras-cpu`, `keras` | `cpu` | 1.8 | 2.2.0 |
-| `keras-9.2-cudnn7` | `9.2-cudnn7` | 1.7 | 2.1.6 |
-| `keras-9.1-cudnn7` | `9.1-cudnn7` | 1.7 | 2.1.6 |
-| `keras-9.0-cudnn7` | `9.0-cudnn7` | 1.7 | 2.1.6 |
-| `keras-8.0-cudnn7` | `8.0-cudnn7` | 1.7 | 2.1.6 |
-| `keras-8.0-cudnn6` | `8.0-cudnn6` | 1.7 | 2.1.6 |
+| `keras-cpu`, `keras` | `tf-cpu` | 1.8 | 2.2.0 |
+| `keras-9.2-cudnn7` | `tf-9.2-cudnn7` | 1.8 | 2.2.0 |
+| `keras-9.1-cudnn7` | `tf-9.1-cudnn7` | 1.7 | 2.1.6 |
+| `keras-9.0-cudnn7` | `tf-9.0-cudnn7` | 1.7 | 2.1.6 |
+| `keras-8.0-cudnn7` | `tf-8.0-cudnn7` | 1.7 | 2.1.6 |
+| `keras-8.0-cudnn6` | `tf-8.0-cudnn6` | 1.7 | 2.1.6 |
 
 ## How to Use
 

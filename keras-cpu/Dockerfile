@@ -1,4 +1,4 @@
-FROM okwrtdsh/anaconda3:cpu
+FROM okwrtdsh/anaconda3:tf-cpu
 
 RUN apt-get update -qq \
  && apt-get install --no-install-recommends -y \
@@ -9,12 +9,7 @@ RUN apt-get update -qq \
 
 # keras (tensorflow) install
 RUN conda install -y --quiet \
-	'tensorflow=1.8' \
 	'keras=2.2.0' \
  && pip --no-cache-dir install \
 	# keras.utils.vis_utils
-	pydot_ng \
-	# quiver(keras)
-	quiver_engine \
-	git+git://github.com/keplr-io/quiver.git
-
+	pydot_ng
