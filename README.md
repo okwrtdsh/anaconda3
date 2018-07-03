@@ -10,30 +10,27 @@ Anaconda3, Jupyter Notebook, OpenCV3, TensorFlow and Keras2 for Deep Learning
 | `9.2-cudnn7` | CUDA 9.2 ( >= 396.26 / 397.44 ) | 7 |
 | `9.1-cudnn7` | CUDA 9.1 ( >= 387.26 / 388.19 ) | 7 |
 | `9.0-cudnn7` | CUDA 9.0 ( >= 384.81 / 385.54 ) | 7 |
-| `8.0-cudnn7` | CUDA 8.0 (8.0.61 GA2) ( >= 375.26 / 376.51 ), (8.0.44) ( >= 367.48 / 369.30 ) | 7 |
 | `8.0-cudnn6` | CUDA 8.0 (8.0.61 GA2) ( >= 375.26 / 376.51 ), (8.0.44) ( >= 367.48 / 369.30 ) | 6 |
 
 ### Tensorflow
 
 | Tag | Base | Tensorflow |
 |:-:|:-:|:-:|
-| `tf-cpu`, `tf` | `cpu` | 1.8 |
-| `tf-9.2-cudnn7` | `9.2-cudnn7` | 1.8 |
-| `tf-9.1-cudnn7` | `9.1-cudnn7` | 1.7 |
-| `tf-9.0-cudnn7` | `9.0-cudnn7` | 1.7 |
-| `tf-8.0-cudnn7` | `8.0-cudnn7` | 1.7 |
-| `tf-8.0-cudnn6` | `8.0-cudnn6` | 1.7 |
+| `tf-cpu`, `tf` | `cpu` | 1.8.0 |
+| `tf-9.2-cudnn7` | `9.2-cudnn7` | 1.8.0 |
+| `tf-9.1-cudnn7` | `9.1-cudnn7` | 1.6.0 |
+| `tf-9.0-cudnn7` | `9.0-cudnn7` | 1.6.0 |
+| `tf-8.0-cudnn6` | `8.0-cudnn6` | 1.4.1 |
 
 ### Keras (Tensorflow Backend)
 
 | Tag | Base | Tensorflow | Keras |
 |:-:|:-:|:-:|:-:|
-| `keras-cpu`, `keras` | `tf-cpu` | 1.8 | 2.2.0 |
-| `keras-9.2-cudnn7` | `tf-9.2-cudnn7` | 1.8 | 2.2.0 |
-| `keras-9.1-cudnn7` | `tf-9.1-cudnn7` | 1.7 | 2.1.6 |
-| `keras-9.0-cudnn7` | `tf-9.0-cudnn7` | 1.7 | 2.1.6 |
-| `keras-8.0-cudnn7` | `tf-8.0-cudnn7` | 1.7 | 2.1.6 |
-| `keras-8.0-cudnn6` | `tf-8.0-cudnn6` | 1.7 | 2.1.6 |
+| `keras-cpu`, `keras` | `tf-cpu` | 1.8.0 | 2.2.0 |
+| `keras-9.2-cudnn7` | `tf-9.2-cudnn7` | 1.8.0 | 2.2.0 |
+| `keras-9.1-cudnn7` | `tf-9.1-cudnn7` | 1.6.0 | 2.1.5 |
+| `keras-9.0-cudnn7` | `tf-9.0-cudnn7` | 1.6.0 | 2.1.5 |
+| `keras-8.0-cudnn6` | `tf-8.0-cudnn6` | 1.4.1 | 2.1.3 |
 
 ### Pytorch
 
@@ -43,7 +40,6 @@ Anaconda3, Jupyter Notebook, OpenCV3, TensorFlow and Keras2 for Deep Learning
 | `pytorch-9.2-cudnn7` | `9.2-cudnn7` | 0.4.0 |
 | `pytorch-9.1-cudnn7` | `9.1-cudnn7` | 0.4.0 |
 | `pytorch-9.0-cudnn7` | `9.0-cudnn7` | 0.4.0 |
-| `pytorch-8.0-cudnn7` | `8.0-cudnn7` | 0.4.0 |
 | `pytorch-8.0-cudnn6` | `8.0-cudnn6` | 0.4.0 |
 
 ## How to Use
