@@ -4,43 +4,43 @@ Anaconda3, Jupyter Notebook, OpenCV3, TensorFlow and Keras2 for Deep Learning
 ## Available tags
 ### Anaconda3, Jupyter, OpenCV3
 
-| Tag | CUDA Toolkit (Linux x86_64 Driver / Windows x86_64 Driver) | CUDNN |
-|:-:|:-:|:-:|
-| `latest`, `cpu` | - | - |
-| `9.2-cudnn7` | CUDA 9.2 ( >= 396.26 / 397.44 ) | 7 |
-| `9.1-cudnn7` | CUDA 9.1 ( >= 387.26 / 388.19 ) | 7 |
-| `9.0-cudnn7` | CUDA 9.0 ( >= 384.81 / 385.54 ) | 7 |
-| `8.0-cudnn6` | CUDA 8.0 (8.0.61 GA2) ( >= 375.26 / 376.51 ), (8.0.44) ( >= 367.48 / 369.30 ) | 6 |
+| Tag | Size / Layers | CUDA Toolkit (Linux x86_64 / Windows x86_64) | CUDNN |
+|:-:|:-:|:-:|:-:|
+| `latest`, `cpu` | [![](https://images.microbadger.com/badges/image/okwrtdsh/anaconda3.svg)](https://microbadger.com/images/okwrtdsh/anaconda3) | - | - |
+| `9.2-cudnn7` | [![](https://images.microbadger.com/badges/image/okwrtdsh/anaconda3:9.2-cudnn7.svg)](https://microbadger.com/images/okwrtdsh/anaconda3:9.2-cudnn7) | CUDA 9.2 ( >= 396.26 / 397.44 ) | 7 |
+| `9.1-cudnn7` | [![](https://images.microbadger.com/badges/image/okwrtdsh/anaconda3:9.1-cudnn7.svg)](https://microbadger.com/images/okwrtdsh/anaconda3:9.1-cudnn7) | CUDA 9.1 ( >= 387.26 / 388.19 ) | 7 |
+| `9.0-cudnn7` | [![](https://images.microbadger.com/badges/image/okwrtdsh/anaconda3:9.0-cudnn7.svg)](https://microbadger.com/images/okwrtdsh/anaconda3:9.0-cudnn7) | CUDA 9.0 ( >= 384.81 / 385.54 ) | 7 |
+| `8.0-cudnn6` | [![](https://images.microbadger.com/badges/image/okwrtdsh/anaconda3:8.0-cudnn6.svg)](https://microbadger.com/images/okwrtdsh/anaconda3:8.0-cudnn6) | CUDA 8.0 ( >= 375.26 / 376.51 ) | 6 |
 
 ### Tensorflow
 
-| Tag | Base | Tensorflow |
-|:-:|:-:|:-:|
-| `tf-cpu`, `tf` | `cpu` | 1.8.0 |
-| `tf-9.2-cudnn7` | `9.2-cudnn7` | 1.8.0 |
-| `tf-9.1-cudnn7` | `9.1-cudnn7` | 1.6.0 |
-| `tf-9.0-cudnn7` | `9.0-cudnn7` | 1.6.0 |
-| `tf-8.0-cudnn6` | `8.0-cudnn6` | 1.4.1 |
+| Tag | Size / Layers | Base | Tensorflow |
+|:-:|:-:|:-:|:-:|
+| `tf-cpu`, `tf` | [![](https://images.microbadger.com/badges/image/okwrtdsh/anaconda3:tf-cpu.svg)](https://microbadger.com/images/okwrtdsh/anaconda3:tf-cpu) | `cpu` | 1.8.0 |
+| `tf-9.2-cudnn7` | [![](https://images.microbadger.com/badges/image/okwrtdsh/anaconda3:tf-9.2-cudnn7.svg)](https://microbadger.com/images/okwrtdsh/anaconda3:tf-9.2-cudnn7) | `9.2-cudnn7` | 1.8.0 |
+| `tf-9.1-cudnn7` | [![](https://images.microbadger.com/badges/image/okwrtdsh/anaconda3:tf-9.1-cudnn7.svg)](https://microbadger.com/images/okwrtdsh/anaconda3:tf-9.1-cudnn7) | `9.1-cudnn7` | 1.6.0 |
+| `tf-9.0-cudnn7` | [![](https://images.microbadger.com/badges/image/okwrtdsh/anaconda3:tf-9.0-cudnn7.svg)](https://microbadger.com/images/okwrtdsh/anaconda3:tf-9.0-cudnn7) | `9.0-cudnn7` | 1.6.0 |
+| `tf-8.0-cudnn6` | [![](https://images.microbadger.com/badges/image/okwrtdsh/anaconda3:tf-8.0-cudnn6.svg)](https://microbadger.com/images/okwrtdsh/anaconda3:tf-8.0-cudnn6) | `8.0-cudnn6` | 1.4.1 |
 
 ### Keras (Tensorflow Backend)
 
-| Tag | Base | Tensorflow | Keras |
-|:-:|:-:|:-:|:-:|
-| `keras-cpu`, `keras` | `tf-cpu` | 1.8.0 | 2.2.0 |
-| `keras-9.2-cudnn7` | `tf-9.2-cudnn7` | 1.8.0 | 2.2.0 |
-| `keras-9.1-cudnn7` | `tf-9.1-cudnn7` | 1.6.0 | 2.1.5 |
-| `keras-9.0-cudnn7` | `tf-9.0-cudnn7` | 1.6.0 | 2.1.5 |
-| `keras-8.0-cudnn6` | `tf-8.0-cudnn6` | 1.4.1 | 2.1.3 |
+| Tag | Size / Layers | Base | Tensorflow | Keras |
+|:-:|:-:|:-:|:-:|:-:|
+| `keras-cpu`, `keras` | [![](https://images.microbadger.com/badges/image/okwrtdsh/anaconda3:keras-cpu.svg)](https://microbadger.com/images/okwrtdsh/anaconda3:keras-cpu) | `tf-cpu` | 1.8.0 | 2.2.0 |
+| `keras-9.2-cudnn7` | [![](https://images.microbadger.com/badges/image/okwrtdsh/anaconda3:keras-9.2-cudnn7.svg)](https://microbadger.com/images/okwrtdsh/anaconda3:keras-9.2-cudnn7) | `tf-9.2-cudnn7` | 1.8.0 | 2.2.0 |
+| `keras-9.1-cudnn7` | [![](https://images.microbadger.com/badges/image/okwrtdsh/anaconda3:keras-9.1-cudnn7.svg)](https://microbadger.com/images/okwrtdsh/anaconda3:keras-9.1-cudnn7) | `tf-9.1-cudnn7` | 1.6.0 | 2.1.5 |
+| `keras-9.0-cudnn7` | [![](https://images.microbadger.com/badges/image/okwrtdsh/anaconda3:keras-9.0-cudnn7.svg)](https://microbadger.com/images/okwrtdsh/anaconda3:keras-9.0-cudnn7) | `tf-9.0-cudnn7` | 1.6.0 | 2.1.5 |
+| `keras-8.0-cudnn6` | [![](https://images.microbadger.com/badges/image/okwrtdsh/anaconda3:keras-8.0-cudnn6.svg)](https://microbadger.com/images/okwrtdsh/anaconda3:keras-8.0-cudnn6) | `tf-8.0-cudnn6` | 1.4.1 | 2.1.3 |
 
 ### Pytorch
 
-| Tag | Base | Pytorch |
-|:-:|:-:|:-:|
-| `pytorch-cpu`, `pytorch` | `cpu` | 0.4.0 |
-| `pytorch-9.2-cudnn7` | `9.2-cudnn7` | 0.4.0 |
-| `pytorch-9.1-cudnn7` | `9.1-cudnn7` | 0.4.0 |
-| `pytorch-9.0-cudnn7` | `9.0-cudnn7` | 0.4.0 |
-| `pytorch-8.0-cudnn6` | `8.0-cudnn6` | 0.4.0 |
+| Tag | Size / Layers | Base | Pytorch |
+|:-:|:-:|:-:|:-:|
+| `pytorch-cpu`, `pytorch` | [![](https://images.microbadger.com/badges/image/okwrtdsh/anaconda3:pytorch-cpu.svg)](https://microbadger.com/images/okwrtdsh/anaconda3:pytorch-cpu) | `cpu` | 0.4.0 |
+| `pytorch-9.2-cudnn7` | [![](https://images.microbadger.com/badges/image/okwrtdsh/anaconda3:pytorch-9.2-cudnn7.svg)](https://microbadger.com/images/okwrtdsh/anaconda3:pytorch-9.2-cudnn7) | `9.2-cudnn7` | 0.4.0 |
+| `pytorch-9.1-cudnn7` | [![](https://images.microbadger.com/badges/image/okwrtdsh/anaconda3:pytorch-9.1-cudnn7.svg)](https://microbadger.com/images/okwrtdsh/anaconda3:pytorch-9.1-cudnn7) | `9.1-cudnn7` | 0.4.0 |
+| `pytorch-9.0-cudnn7` | [![](https://images.microbadger.com/badges/image/okwrtdsh/anaconda3:pytorch-9.0-cudnn7.svg)](https://microbadger.com/images/okwrtdsh/anaconda3:pytorch-9.0-cudnn7) | `9.0-cudnn7` | 0.4.0 |
+| `pytorch-8.0-cudnn6` | [![](https://images.microbadger.com/badges/image/okwrtdsh/anaconda3:pytorch-8.0-cudnn6.svg)](https://microbadger.com/images/okwrtdsh/anaconda3:pytorch-8.0-cudnn6) | `8.0-cudnn6` | 0.4.0 |
 
 ## How to Use
 
