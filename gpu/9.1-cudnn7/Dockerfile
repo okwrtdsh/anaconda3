@@ -23,11 +23,6 @@ RUN apt-get update -qq \
  && wget --quiet https://repo.continuum.io/archive/$ANACONDA_INSTALL_SCRIPT -O ~/anaconda.sh \
  && /bin/bash ~/anaconda.sh -b -p /opt/conda \
  && rm ~/anaconda.sh \
-# tini install
- && TINI_VERSION=`curl https://github.com/krallin/tini/releases/latest | grep -o "/v.*\"" | sed 's:^..\(.*\).$:\1:'` \
- && curl -L "https://github.com/krallin/tini/releases/download/v${TINI_VERSION}/tini_${TINI_VERSION}.deb" > tini.deb \
- && dpkg -i tini.deb \
- && rm tini.deb \
  && apt-get clean \
  && rm -rf /var/lib/apt/lists/*
 
@@ -36,7 +31,14 @@ RUN conda install -y --quiet \
 	Pillow \
  && conda config --add channels conda-forge \
 	# opencv3 install
- && conda install -c menpo opencv3
+ && conda install -c menpo opencv3 \
+ && conda clean -tipsy
+
+# tini install
+ENV TINI_VERSION=v0.18.0
+ADD https://github.com/krallin/tini/releases/download/${TINI_VERSION}/tini /usr/bin/tini
+RUN chmod +x /usr/bin/tini
+ENTRYPOINT [ "/usr/bin/tini", "--" ]
 
 CMD jupyter notebook \
 	--notebook-dir=${NOTEBOOK_DIR} \

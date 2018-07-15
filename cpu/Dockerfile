@@ -1,5 +1,4 @@
 FROM continuumio/anaconda3:latest
-# 4.3.1
 
 USER root
 ENV DEBIAN_FRONTEND noninteractive
@@ -20,7 +19,8 @@ RUN conda install -y --quiet \
 	Pillow \
  && conda config --add channels conda-forge \
 	# opencv3 install
- && conda install -c menpo opencv3
+ && conda install -c menpo opencv3 \
+ && conda clean -tipsy
 
 CMD jupyter notebook \
 	--notebook-dir=${NOTEBOOK_DIR} \
