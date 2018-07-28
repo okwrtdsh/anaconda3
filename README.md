@@ -42,6 +42,17 @@ Anaconda3, Jupyter Notebook, OpenCV3, TensorFlow and Keras2 for Deep Learning
 | `pytorch-9.0-cudnn7` | [![](https://images.microbadger.com/badges/image/okwrtdsh/anaconda3:pytorch-9.0-cudnn7.svg)](https://microbadger.com/images/okwrtdsh/anaconda3:pytorch-9.0-cudnn7) | `9.0-cudnn7` | 0.4.0 |
 | `pytorch-8.0-cudnn6` | [![](https://images.microbadger.com/badges/image/okwrtdsh/anaconda3:pytorch-8.0-cudnn6.svg)](https://microbadger.com/images/okwrtdsh/anaconda3:pytorch-8.0-cudnn6) | `8.0-cudnn6` | 0.4.0 |
 
+### Mxnet
+
+| Tag | Size / Layers | Base | Mxnet |
+|:-:|:-:|:-:|:-:|
+| `mxnet-cpu`, `mxnet` | [![](https://images.microbadger.com/badges/image/okwrtdsh/anaconda3:mxnet-cpu.svg)](https://microbadger.com/images/okwrtdsh/anaconda3:mxnet-cpu) | `cpu` | mxnet |
+| `mxnet-9.2-cudnn7` | [![](https://images.microbadger.com/badges/image/okwrtdsh/anaconda3:mxnet-9.2-cudnn7.svg)](https://microbadger.com/images/okwrtdsh/anaconda3:mxnet-9.2-cudnn7) | `9.2-cudnn7` | mxnet-cu92 |
+| `mxnet-9.1-cudnn7` | [![](https://images.microbadger.com/badges/image/okwrtdsh/anaconda3:mxnet-9.1-cudnn7.svg)](https://microbadger.com/images/okwrtdsh/anaconda3:mxnet-9.1-cudnn7) | `9.1-cudnn7` | mxnet-cu91 |
+| `mxnet-9.0-cudnn7` | [![](https://images.microbadger.com/badges/image/okwrtdsh/anaconda3:mxnet-9.0-cudnn7.svg)](https://microbadger.com/images/okwrtdsh/anaconda3:mxnet-9.0-cudnn7) | `9.0-cudnn7` | mxnet-cu90 |
+| `mxnet-8.0-cudnn6` | [![](https://images.microbadger.com/badges/image/okwrtdsh/anaconda3:mxnet-8.0-cudnn6.svg)](https://microbadger.com/images/okwrtdsh/anaconda3:mxnet-8.0-cudnn6) | `8.0-cudnn6` | mxnet-cu80 |
+
+
 ## How to Use
 
 ### CPU
