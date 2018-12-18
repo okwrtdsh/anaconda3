@@ -6,6 +6,6 @@ RUN conda install -y --quiet \
  && conda install -y --quiet -c mingfeima \
 	mkldnn \
  && conda install -y --quiet -c pytorch \
-	torchvision \
-	'pytorch=0.4.0'
+	torchvision-cpu \
+	'pytorch-cpu=1.0.0'
 

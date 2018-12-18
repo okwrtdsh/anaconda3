@@ -9,5 +9,5 @@ RUN conda install -y --quiet \
 	torchvision \
 	magma-cuda80 \
 	cuda80 \
-	'pytorch=0.4.0'
+	'pytorch=1.0.0'
 

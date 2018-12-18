@@ -1,4 +1,4 @@
-FROM okwrtdsh/anaconda3:9.0-cudnn7
+FROM okwrtdsh/anaconda3:10.0-cudnn7
 
 # pytorch install
 RUN conda install -y --quiet \
@@ -7,7 +7,7 @@ RUN conda install -y --quiet \
 	mkldnn \
  && conda install -y --quiet -c pytorch \
 	torchvision \
-	magma-cuda90 \
-	cuda90 \
+	magma-cuda100 \
+	cuda100 \
 	'pytorch=1.0.0'
 
