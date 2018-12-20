@@ -19,7 +19,8 @@ RUN apt-get update -qq \
 	libgtk2.0-0 \
 # anaconda install
  && echo 'export PATH=/opt/conda/bin:$PATH' > /etc/profile.d/conda.sh \
- && ANACONDA_INSTALL_SCRIPT=`curl https://repo.continuum.io/archive/ | grep '>Anaconda3.*-Linux-x86_64.sh<' | sed -e 's/.*>\(.*.sh\)<\/.*/\1/g' | sort -r | head -1` \
+ #&& ANACONDA_INSTALL_SCRIPT=`curl https://repo.continuum.io/archive/ | grep '>Anaconda3.*-Linux-x86_64.sh<' | sed -e 's/.*>\(.*.sh\)<\/.*/\1/g' | sort -r | head -1` \
+ && ANACONDA_INSTALL_SCRIPT='Anaconda3-5.2.0-Linux-x86_64.sh' \
  && wget --quiet https://repo.continuum.io/archive/$ANACONDA_INSTALL_SCRIPT -O ~/anaconda.sh \
  && /bin/bash ~/anaconda.sh -b -p /opt/conda \
  && rm ~/anaconda.sh \

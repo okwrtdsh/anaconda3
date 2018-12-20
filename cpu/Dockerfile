@@ -1,4 +1,4 @@
-FROM continuumio/anaconda3:latest
+FROM continuumio/anaconda3:5.2.0
 
 USER root
 ENV DEBIAN_FRONTEND noninteractive
