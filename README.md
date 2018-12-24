@@ -116,3 +116,31 @@ $ nvidia-docker-compose up -d
 $ docker-compose up -d
 ```
 3. Open `http://localhost:8888` in web browser
+
+#### [PyTorch](https://github.com/pytorch/pytorch#docker-image)
+> Please note that PyTorch uses shared memory to share data between processes, so if torch multiprocessing is used (e.g. for multithreaded data loaders) the default shared memory segment size that container runs with is not enough, and you should increase shared memory size either with `--ipc=host` or `--shm-size` command line options to nvidia-docker run.
+
+##### nvidia-docker
+```bash
+$ nvidia-docker run --ipc=host -v $(pwd):/src/notebooks -p 8888:8888 -td okwrtdsh/anaconda3:pytorch-10.0-cudnn7
+```
+
+##### docker-compose
+```yml
+version: '3'
+services:
+  jupyter:
+    image: okwrtdsh/anaconda3:pytorch-10.0-cudnn7
+    ipc: host
+    ports:
+      - '8888:8888'
+    volumes:
+      - ./notebooks:/src/notebooks
+```
+
+```bash
+# Run with nvidia-docker-compose (nvidia-docker v1)
+$ nvidia-docker-compose up -d
+# Run with docker-compose (nvidia-docker v2)
+$ docker-compose up -d
+```
